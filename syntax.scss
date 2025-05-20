@@ -1,0 +1,341 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    
+    background-color: white;
+    
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .logo{
+            display: flex;
+            font-size: 25px;
+            color: #813A1A;
+            flex-direction: column;
+            position: relative;
+            align-items: center;
+            font-weight: 700;
+            
+
+            .pic{
+            display: flex;
+            font-size: 25px;
+            color: #813A1A;
+            flex-direction: row;
+            margin-bottom: -20px;
+
+            img{
+                height: 30px;
+            }
+
+            .coffee{
+                margin-top: -100px;
+            }
+            
+
+            }
+        }
+
+        .nav-links{
+            display: flex;
+            color: #3E2012;
+            font-size: 20px;
+
+
+            ul{
+                  display: flex;
+                    color: #3E2012;
+                   
+                    text-decoration: none;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-around;
+                    gap: 25px;
+                    margin-top: -40px;
+                li{
+                    display: flex;
+                    color: #3E2012;
+                    font-size: 25px;
+                    text-decoration: none;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 20px;
+                }
+               
+            }
+        }
+
+        .icons{
+            color: #813A1A;
+            display: flex;
+            gap: 10px;
+            margin-top: -50px;
+
+            img{
+                height: 28px;
+            }
+
+        }
+    }
+
+    .hero{
+
+        display: flex;
+                    color: #3E2012;
+                    font-size: 14px;
+                    text-decoration: none;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 20px;
+                    width: 100%;
+
+                    .imgoverlay{
+                        position: relative;
+                        text-align: center;
+                        
+
+                        h1{
+                            font-size: 250px;
+                            padding-top: 100px;
+                            color: #EDC588;
+                            z-index: 1;
+                        }
+
+                        .overlay{
+                            position: absolute;
+                            z-index: 2;
+                        }
+                
+                        img{
+                            height: 400px;
+                            
+                        }
+                
+                        .img1{
+                            top: 20px;
+                            left: 100px;
+                        
+                        }
+
+                        .img2{
+                            top: 20px;
+                            right: 150px;
+                            height: 500px;
+
+                        }
+
+                    }
+
+                    .text{
+                        display: flex;
+                        right: 500px;
+                        position: relative;
+                        color: #3F2318;
+                        flex-direction: column;
+                        gap: 35px;
+                        top: -69px;
+                        
+
+                        .text1{
+                            p{
+                                font-size: 32px;
+                                line-height: 33px;
+                                font-weight: 700;
+
+                            }
+
+                            button{
+                             background-color: #813A1A;
+                             color: white;
+                             border-radius: 5px;
+                             font-size: 24px;
+                             padding: 5px;
+                             padding-left: 20px;
+                             padding-right: 20px;
+                                
+                            }
+
+
+                        }
+
+                        .text2{
+                            h1{
+                                font-size: 41px;
+                            }
+                            p{
+                                font-size: 24px;
+                            }
+
+                            button{
+                                background-color: #813A1A;
+                             color: white;
+                             border-radius: 5px;
+                             font-size: 24px;
+                             padding: 5px;
+                             padding-left: 20px;
+                             padding-right: 20px;
+
+                            }
+
+                        }
+
+
+
+                    }
+
+                    .form{
+                        display: flex;
+                        left: 290px;
+                        padding: 5px;
+                        position: relative;
+                        color: #3F2318;
+                        background-image: url(img/coffeebean.png);
+                        object-fit: contain;
+                        object-position: center;
+                        flex-direction: column;
+                        background-color: #813A1A;
+                        gap: 25px;
+                        top: -500px;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        height: 400px;
+                        width: 500px;
+                        align-items: center;
+                        font-size: 15px;
+                        border-radius: 7px;
+                       
+
+                       .row{
+                        display: flex;
+                        gap: 20px;
+                        align-items: center;
+                        align-content: center;
+                        flex-direction: column;
+
+
+                        .first-row{
+                            display: flex;
+                            align-items: center;
+                            gap: 30px;
+                           
+
+                            input{
+                                color: black;
+                                padding: 10px;
+                                font-weight: 700;
+                            }
+
+                        }
+
+                        .sec-row{
+                            display: flex;
+                            align-items: center;
+                            gap: 30px;
+
+                            input{
+                                color: black;
+                                padding: 10px;
+                                font-weight: 700;
+                            }
+
+                        }
+
+                       }
+                       
+                        
+
+                        h4{
+                            font-size: 30px;
+                            color: white;
+                            padding-right: 270px;
+
+                        }
+
+                        h3{
+                            font-size: 40px;
+                            color: white;
+                            padding-right: 10px;
+
+                        }
+
+                        .buttons{
+                            .sign{
+                                color: #813A1A;
+                                background-color: #EDC588;
+                                border-radius: 5px;
+                                padding: 7px;
+                                padding-left: 35px;
+                                padding-right: 35px;
+                                font-size: 20px;
+                                font-weight: 700;
+                                
+                            }
+
+                            .login{
+                                color: white;
+                                background-color :transparent;
+                                border-radius: 5px;
+                                padding: 7px;
+                                padding-left: 35px;
+                                padding-right: 35px;
+                                font-size: 20px;
+                                font-weight: 700;
+                                border-color: #EDC588;
+                               border: 10%;
+                             
+
+                            }
+                        }
+
+                    }
+
+        
+    
+   }
+}
+
+.discover{
+
+    .taste{
+        .real{
+            display: flex;
+            flex-direction: column;
+
+            p{
+                position: relative;
+                top: 30px;
+            }
+
+
+            img{
+                height: 700px;
+            }
+
+        }
+
+        .real2{
+            .textreal{
+
+                .textinreal{
+
+                }
+
+                .iconreal{
+
+                }
+
+            }
+
+        }
+    }
+}
