@@ -146,6 +146,13 @@ header .menu-icon {
   padding: 5px;
   padding-left: 20px;
   padding-right: 20px;
+  border: none;
+}
+.hero .text .text1 button:hover {
+  box-shadow: 0 1px 0 1px rgba(255, 255, 0, 0.5);
+  background-color: #dea651;
+  transition: 0.7s;
+  animation: hoverAnimation 3s ease-in-out infinite;
 }
 .hero .text .text2 {
   padding-top: 40px;
@@ -164,6 +171,13 @@ header .menu-icon {
   padding: 5px;
   padding-left: 20px;
   padding-right: 20px;
+  border: none;
+}
+.hero .text .text2 button:hover {
+  box-shadow: 0 1px 0 1px rgba(255, 255, 0, 0.5);
+  background-color: #dea651;
+  transition: 0.7s;
+  animation: hoverAnimation 3s ease-in-out infinite;
 }
 .hero .form {
   display: flex;
@@ -631,29 +645,29 @@ header .menu-icon {
   max-width: 100%;
   overflow: hidden;
 }
-.partnered-p .container .row .col-md-3 .image-box {
+.partnered-p .container-fluid .row .col-md-3 .image-box {
   display: flex;
   background-color: white;
   justify-content: space-between;
   flex-direction: column;
   border-radius: 3px;
 }
-.partnered-p .container .row .col-md-3 .image-box .text {
+.partnered-p .container-fluid .row .col-md-3 .image-box .text {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
 }
-.partnered-p .container .row .col-md-3 .image-box .text h4 {
+.partnered-p .container-fluid .row .col-md-3 .image-box .text h4 {
   font-size: 32;
   color: #813a1a;
   font-weight: 700;
 }
-.partnered-p .container .row .col-md-3 .image-box .text h5 {
+.partnered-p .container-fluid .row .col-md-3 .image-box .text h5 {
   font-size: 30;
   color: #813a1a;
   font-weight: 400;
 }
-.partnered-p .container .row .col-md-3 .image-box .text a {
+.partnered-p .container-fluid .row .col-md-3 .image-box .text a {
   text-decoration: none;
   font-size: 15px;
   color: #813a1a;
@@ -1013,7 +1027,6 @@ header .menu-icon {
 
 @media (max-width: 768px) {
   header {
-    position: fixed;
     min-height: 70px;
     flex-direction: column;
     padding: 20px;
@@ -1037,6 +1050,11 @@ header .menu-icon {
     display: none;
     margin-top: 20px;
   }
+  header .menu-icon {
+    display: inline;
+    padding-left: 80%;
+    margin-top: -100px;
+  }
   .hero {
     flex-direction: column;
     height: auto;
@@ -1047,13 +1065,20 @@ header .menu-icon {
     font-size: 150px;
   }
   .hero .text {
-    margin-top: 30%;
+    margin-top: 38%;
     right: 0;
     top: 0;
     gap: 20px;
   }
+  .hero .text .text1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
   .hero .text .text1 p {
-    font-size: 20px;
+    font-size: 30px;
   }
   .hero .text .text2 h1 {
     font-size: 24px;
